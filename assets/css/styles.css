@@ -1,0 +1,101 @@
+:root {
+    --red: #d32f2f;
+    --white: #ffffff;
+    --green: #4caf50;
+    --gray: #9e9e9e;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--gray);
+    background-color: var(--white);
+  }
+  
+  header {
+    background-image: url("header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+  }
+  
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  nav {
+    background-color: var(--red);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  h2 {
+    color: var(--red);
+    font-family: "Playfair Display", serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: var(--gray);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  
