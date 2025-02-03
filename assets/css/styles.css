@@ -13,7 +13,7 @@
     background-color: var(--white);
   }
   
-  header {
+  /* header {
     background-image: url("header-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@
     align-items: center;
     text-align: center;
     color: var(--white);
-  }
+  } */
   
   h1 {
     font-family: "Playfair Display", serif;
